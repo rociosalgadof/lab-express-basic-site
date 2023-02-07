@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav > .navSizingContainer > ul {
+display: flex;
+flex-direction: row;
+height: 100%;
+align-items: center;
+}
+
+nav{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+}
+
+.navSizingContainer{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav > .navSizingContainer > ul > li > a{
+    color: purple;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav > .navSizingContainer > ul > li > a:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.about > img{
+    margin-top: 80px;
+    width: 40%;
+}
+
+.about, main{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.aboutSizing{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about > p {
+    max-width: 40%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+main{
+height: 90vh;}
+
+.work{
+height: 310px;
+display: flex;
+margin-bottom: 100px;
+justify-content: space-around;
+align-items: center;
+}
+
+.work > img{
+    height: 100%;
+}
+.works{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.worksSizing{
+    width: 80%;
+}
+.work1{
+    margin-top: 50px;
+}
+
+.work > p {
+    max-width: 300px;
+}
+
+#work2{
+    flex-direction: row-reverse;
+}
+
+.pictures > img {
+    height: 310px;
+    width: 40%;
+    margin-top: 100px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictures > h2{
+    margin-top: 50px;
+}
+
+.pictures > img:nth-of-type(3){
+    margin-bottom: 100px;
+}
